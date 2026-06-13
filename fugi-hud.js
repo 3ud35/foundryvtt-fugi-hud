@@ -24,8 +24,8 @@ if (document.getElementById(hudId)) {
     // CONFIGURATION: Add your player objects here
     const players = [
         { name: "Player Name", url: "PASTE_YOUR_FUGI_URL_HERE" },
-        //{ name: "Player 2", url: "PASTE_YOUR_FUGI_URL_HERE" }
-    ]; // Comment the line of a player before running the macro if they are absent
+        //{ name: "Player 2", url: "PASTE_YOUR_FUGI_URL_HERE" }, // Copy this line to add more players, remove the // at the beginning of the line to uncomment the line so it's taken into the code 
+    ]; // Comment the line of a player before running the macro if they are absent (add // at the beginning of the line)
 
     // Build the HTML content for the iframes
     let iframesHtml = "";
