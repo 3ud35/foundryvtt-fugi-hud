@@ -1,6 +1,6 @@
 # Fugi Reactive Portraits for Foundry VTT
 
-A lightweight macro to display dynamic, voice-reactive Discord character portraits in Foundry VTT using [Fugi Reactive](https://reactive.fugi.tech/).
+A lightweight macro to display dynamic, voice-reactive Discord character portraits in Foundry VTT using [Fugi Reactive](https://reactive.fugi.tech/), ✨**with no module dependencies required**✨.
 
 ## Setup Instructions
 
