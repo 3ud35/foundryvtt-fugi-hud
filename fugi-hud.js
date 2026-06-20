@@ -1,5 +1,6 @@
 /* * Fugi Reactive Portraits HUD for Foundry VTT
- * * SETUP INSTRUCTIONS:
+ *
+ * SETUP INSTRUCTIONS:
  * 1. Visit https://reactive.fugi.tech/library and log in with your Discord account.
  * 2. Create a new model in your Library.
  * 3. Name the model after your character.
@@ -8,9 +9,16 @@
  * 6. Click "Save".
  * 7. Set this model as active by clicking the "Set active" button on the right.
  * 8. Navigate to the "Sources" tab: https://reactive.fugi.tech/sources
- * 9. Find your source and click the clipboard icon (located to the left of the name 
+ * 9. Find your source and click the clipboard icon (located to the left of the name
  * at the bottom right of the window) to copy your unique URL.
  * 10. Paste that URL into the 'players' configuration array below.
+ *
+ * ⚠️ KNOWN LIMITATION — BROWSER CLIENTS:
+ * This macro currently works reliably ONLY on the Foundry VTT desktop app (Electron).
+ * Players connecting via a web browser will see a generic placeholder (mountain icon)
+ * instead of their portrait. This appears to be caused by browser security restrictions
+ * that prevent the Fugi widget from connecting to the local Discord client.
+ * A workaround for browser-based players is being investigated.
  */
 
 // Unique ID for the HUD element
